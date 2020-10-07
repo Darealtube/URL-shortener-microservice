@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>URL Shortener</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+     <h1>
+         URL Shortener Microservice
+     </h1>
+     
+     <h2>
+       This is a URL Shortener, just type a link to a website and remember to add 'https://' or it will not
+       shorten the link for you. This is powered by Node, Express, and Mongoose!
+     </h2>
+     <br/><br/>
+        <form action="api/shorturl/new" method="POST">
+          <label for="url_input">URL to be shortened</label>
+          <input id="url_input" type="text" name="url" value="https://">
+          <input type="submit" value="POST URL">
+        </form>
+      <br/><br/>
+       <form action="api/shorturl/red" method="POST">
+          <label for="url_input2">Enter Short URL here (number)</label>
+          <input id="url_input2" type="text" name="numb" placeholder="e.g. 10245">
+          <input type="submit" value="REDIRECT">
+        </form>
+     
+     <h4>
+       Make sure to check out FCC for more information about this Microservice project.
+     </h4>
+     <br>
+     <h4>
+       <a href="#">This is the link to the Github repository of this project.</a>
+     </h4>
+     
+     <h8>Made with love by Darryl</h8>
+   </body>
+
+
+</html>

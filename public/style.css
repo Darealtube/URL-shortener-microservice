@@ -1,0 +1,38 @@
+/****** Main Styling ******/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.000em;
+	color: #fca311;
+	background-color: #14213d;
+	text-align: center;
+}
+
+
+form {
+  border: solid 1px #e5e5e5;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 1.250em;
+  max-width: 37.500em;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  color: #000;
+  padding: 5px;
+  background: #e5e5e5;
+}
+
+input[type=text] {
+  width: 25vw;
+  text-align: center;
+}
+
+a{
+  color: inherit;
+  outline: none;
+}
